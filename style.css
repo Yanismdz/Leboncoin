@@ -1,0 +1,55 @@
+/* -------------BODY-------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+
+body
+{
+    margin:0;
+    padding:0;
+}
+
+/* -------------HEADER------------ */
+/* ------------------------------- */
+/* ------------------------------- */
+
+header
+{
+    background-color:#F56B2A;
+    width:100%;
+}
+
+.heading
+{
+    max-width:1000px;
+    margin:0 auto;
+    height:100%;
+}
+
+/* Logo */
+
+#logo
+{
+    display:inline-block;
+    width:300px;
+    height:50px;
+}
+
+/* Navigation */
+
+.navbar
+{
+    list-style:none;
+    text-align:center;
+    width:80%;
+}
+
+.navbar li
+{
+    display:inline-block;
+}
+
+.navbar li a
+{
+    text-decoration:none;
+    color:white;
+}
