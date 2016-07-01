@@ -4,17 +4,17 @@
 	<title></title>	
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	 <link href='https://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
 	<link type="text/css" rel="stylesheet" href="style.css"/>
     </head>
     <body>
 	<!-- HEADER -->
 	<header>
-	    <div class="heading">
-		<img src="logo.png" alt="leboncoin logo" id="logo">
 		<!-- NAVIGATION -->
 		<nav>
+		    <img src="logo2.png" alt="leboncoin logo" id="logo">
 		    <ul class="navbar">
-			<li><a href="index.html">Acceuil</a></li>
+			<li><a href="index.html" id="acc">Acceuil</a></li>
 			<li><a href="index.html">Déposer une annonce</a></li>
 			<li><a href="index.html">Offres</a></li>
 			<li><a href="index.html">Demandes</a></li>
@@ -23,12 +23,132 @@
 		    </ul>
 		</nav>
 		<!-- NAVIGATION END -->
-	    </div>
 	</header>
 	<!-- HEADER END -->
 	<section>
+	    <!-- MAP -->
+	    <img src="carte.png" alt="France map" class="map" usemap="#Map">
+	    <map name="Map" id="Map">
+		<area alt="npdc" title="npdc" href="http://www.leboncoin.fr/annonces/offres/nord_pas_de_calais/" shape="poly" coords="256,21,229,27,229,53,240,60,256,67,281,73,313,75,306,55" />
+		<area alt="Centre" title="centre" href="http://www.leboncoin.fr/annonces/offres/centre/" shape="poly" coords="235,106,224,113,219,129,226,137,244,151,260,162,270,162,280,150,292,144,286,126,275,116" />
+		<area alt="Corse" title="corse" href="http://www.leboncoin.fr/annonces/offres/corse/" shape="poly" coords="436,378,420,396,410,408,418,436,435,453,443,413" />
+		<area alt="Picardie" title="picrdie" href="http://www.leboncoin.fr/annonces/offres/picardie/" shape="poly" coords="229,61,250,68,272,77,300,74,305,74,299,84,299,96,282,106,286,120,262,108,242,106,237,104,242,82,237,83,225,68" />
+		</map>
+	    <!-- MAP END --> 
+	    <!-- SIDE LIST -->
+	    <ul class="sidebar">
+		<li><a href="http://www.leboncoin.fr/annonces/offres/alsace/" class="alsace">Alsace</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/aquitaine/" class="aquitaine">Aquitaine</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/auvergne/" class="auvergne">Auvergne</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/basse_normandie/" class="basse_normandie">Basse-Normandie</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/bourgogne/" class="bourgogne">Bourgogne</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/bretagne/" class="bretagne">Bretagne</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/centre/" class="centre">Centre</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/champagne_ardenne/" class="champagne_ardenne">Champagne-Ardenne</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/corse/" class="corse">Corse</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/franche_comte/" class="franche_comte">Franche-Comté</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/haute_normandie/" class="haute_normandie">Haute-Normandie</a></li>
+ 
+		<li><a href="http://www.leboncoin.fr/annonces/offres/ile_de_france/" class="ile_de_france">Ile-de-France</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/languedoc_roussillon/" class="languedoc_roussillon">Languedoc-Roussillon</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/limousin/" class="limousin">Limousin</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/lorraine/" class="lorraine">Lorraine</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/midi_pyrenees/" class="midi_pyrenees">Midi-Pyrénées</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/nord_pas_de_calais/" class="nord_pas_de_calais">Nord-Pas-de-Calais</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/pays_de_la_loire/" class="pays_de_la_loire">Pays de la Loire</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/picardie/" class="picardie">Picardie</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/poitou_charentes/" class="poitou_charentes">Poitou-Charentes</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/provence_alpes_cote_d_azur/" class="provence_alpes_cote_d_azur">Provence-Alpes-Côte d'Azur</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/rhone_alpes/" class="rhone_alpes">Rhône-Alpes</a></li>
+
+		<li><a href="http://www.leboncoin.fr/annonces/offres/guadeloupe/" class="guadeloupe">Guadeloupe</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/martinique/" class="martinique">Martinique</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/guyane/" class="guyane">Guyane</a></li>
+		
+		<li><a href="http://www.leboncoin.fr/annonces/offres/reunion/" class="reunion">Réunion</a></li>
+	    </ul>
+	    <!-- SIDE LIST END -->	    
 	</section>
+	<!-- SECTION END -->
+	<!-- FOOTER -->
 	<footer>
+	    <!-- LIST WRAPPER -->
+	    <div class="wrapperul">
+		<div class="botul">
+		    <!-- FIRST LIST + TITLE -->
+		    <div id="botul1">
+			<h3>A PROPOS DU BON COIN</h3>
+			<ul>
+			    <li><a href="https://corporate.leboncoin.fr/">Qui sommes-nous</a></li>
+			    <li><a href="https://www.leboncoin.fr/recrutement.htm?ca=12_s&c=0&w=3">Nous rejoindre</a></li>		    
+			</ul>
+		    </div>
+		    <!-- FIRST LIST + TITLE END-->
+		    <!-- 2ND LIST + TITLE -->
+		    <div id="botul2">
+			<h3>NOS APPPLICATIONS</h3>
+			<ul>
+			    <li><a href=""><img src="ios.png" alt="ioslogo"></a></li>
+			    <li><a href=""><img src="gp.png" alt="googleplaylogo" class="gplogo"></a></li>			    
+			</ul>
+		    </div>
+		</div>
+		<!-- 2ND LIST + TITLE END-->
+		<!-- 3RD LIST + TITLE -->
+		<div class="botul" id="botul3">
+		    <h3>INFORAMTION LEGALES</h3>
+		    <ul>
+			<li><a href="https://www.leboncoin.fr/legal.htm?ca=12_s">Conditions générales d'utilisation</a></li>
+			<li><a href="https://www.leboncoin.fr/regles.htm?ca=12_s">Regles de diffusions</a></li>
+			<li><a href="https://www.leboncoin.fr/cgv_general.htm?ca=12_s">Conditions Générales de Vente</a></li>
+			<li><a href="https://www.leboncoin.fr/cookies">Vie privée/cookies</a></li>
+		    </ul>
+		</div>
+		<!-- 3RD LIST + TITLE END-->
+		<!-- 4TH LIST + TITLE -->
+		<div class="botul" id="botul4">
+		    <h3>PROFESSIONELS</h3>
+		    <ul>
+			<li><a href="https://www2.leboncoin.fr/pub/form/?ca=12_s">Publicités</a></li>
+			<li><a href="">Professionels de l'immobilier</a></li>
+			<li><a href="">Vos recutements</a></li>
+		    </ul>
+		</div>
+		<!-- 4TH LIST + TITLE END -->
+		<!-- 5TH LIST + TITLE -->
+		<div class="botul" id="botul5">
+		    <h3>DES QUESTIONS?</h3>
+		    <ul>
+			<li><a href="">Aide</a></li>
+			<li><a href="">Nous contacter</a></li>
+		    </ul>
+		</div>
+		<!-- 5TH LIST + TITLE END-->
+	    </div>
+	    <!-- LIST WRAPPER END-->	    
 	</footer>
+	<!-- END OF FOOTER -->
     </body>
 </html>
