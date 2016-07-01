@@ -96,13 +96,13 @@ section
     text-align:right;
 }
 
+/* Sidebar */
 .sidebar
 {
     margin-top:0px;
     list-style:none;
     display:inline-block;
     margin-left:4%;
-    border: 3px pink solid;
 }
 
 .sidebar li 
@@ -123,9 +123,9 @@ section
     color:#F56B2A;
 }
 
+/* Map */
 .map
 {
-    border: 3px pink solid;
     display:inline-block;
     padding:20px 0 20px 25%;
 }
@@ -142,6 +142,7 @@ footer
     text-align:left;
 }
 
+/* List wrappel */
 .wrapperul
 {
     max-width:1110px;
@@ -149,6 +150,7 @@ footer
     border-bottom:#666666 1px solid;
 }
 
+/* Ios and google play logo */
 #botul2 ul li
 {
     display:inline-block;
@@ -166,6 +168,7 @@ footer
     width:100%
 }
 
+/* List title */
 .botul h3
 {
     font-size:15px;
@@ -174,6 +177,7 @@ footer
     font-family: Open-Sans, sans-serif;
 }
 
+/* List */
 footer ul
 {
     list-style:none;
