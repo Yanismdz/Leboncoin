@@ -50,6 +50,7 @@ nav
 {
     max-width:1110px;
     margin: 0 auto;
+    height:100%;
 }
 
 .navbar
@@ -83,6 +84,27 @@ nav
 {
     text-decoration:underline;
     color:white;
+}
+
+p
+{
+    display:inline-block;
+    border:white 1px solid;
+    color:#fff;
+    padding:10px;
+    margin-left: 50px;
+    width:130px;
+    text-align:center;
+    border-radius:4px;
+    margin-top:10px;
+    background-color:#F56B2A; 
+    vertical-align:top;
+}
+
+p:hover
+{
+    background-color:#fff;
+    color:#F56B2A;
 }
 
 /* -------------SECTION------------ */
