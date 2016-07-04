@@ -230,3 +230,36 @@ footer ul li a:hover
     vertical-align:top;
     width:24%;
 }
+
+@media (max-width:963px)
+{
+    .map
+    {
+	padding-left:0;
+	margin:auto;
+    }
+}
+@media (max-width:952px)
+{
+    p
+    {
+	display:none;
+    }
+    .navbar
+    {
+	display:none;
+    }
+    #logo
+    {
+	display:block;
+	margin:auto;
+    }
+}
+
+@media (max-width:716px)
+{
+    .sidebar
+    {
+	text-align:center;
+    }
+}
